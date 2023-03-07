@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 // ? Throw an error if the parameter has a unit
 @function rem($pixel) {
   @if math.is-unitless($pixel) {
